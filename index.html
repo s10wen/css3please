@@ -57,12 +57,12 @@
   <pre class="rule comment">/*                           <a class="cb">[to clipboard]</a> <a class="off">[toggle rule off]</a> <span class="endcomment">*/</span></pre>
   <pre class="rule">
 .box_round {
-     -moz-border-radius: <b g="0">8px 8px 0px 0px</b>; <span class="comment">/* Firefox 1+ <span class="endcomment">*/</span></span>
+     -moz-border-radius: <b g="0">8px 8px 0 0</b>; <span class="comment">/* Firefox 1+ <span class="endcomment">*/</span></span>
      -webkit-border-top-left-radius: <b g="1" readonly>8px</b>;  <span class="comment">/* Safari 3-4 <span class="endcomment">*/</span></span>
     -webkit-border-top-right-radius: <b g="2" readonly>8px</b>;
- -webkit-border-bottom-right-radius: <b g="3" readonly>0px</b>;
-  -webkit-border-bottom-left-radius: <b g="4" readonly>0px</b>;
-          border-radius: <b g="0">8px 8px 0px 0px</b>; <span class="comment">/* Opera 10.5, IE9, Safari 5, Chrome <span class="endcomment">*/</span></span>
+ -webkit-border-bottom-right-radius: <b g="3" readonly>0</b>;
+  -webkit-border-bottom-left-radius: <b g="4" readonly>0</b>;
+          border-radius: <b g="0">8px 8px 0 0</b>; <span class="comment">/* Opera 10.5, IE9, Safari 5, Chrome <span class="endcomment">*/</span></span>
 }</pre>
   <pre class="rule comment commentclose"><span class="comment">/* */</span></pre>
 </div>
@@ -72,8 +72,8 @@
   <pre class="rule comment">/*                           <a class="cb">[to clipboard]</a> <a class="off">[toggle rule off]</a> <span class="endcomment">*/</span></pre>
   <pre class="rule">
 .box_shadow {
-  -webkit-box-shadow: <b g="0">0px</b> <b g="1">0px</b> <b g="2">4px</b> <b g="3">0px</b> <b g="4" i="lHex" o="sHex">#ffffff</b>; <span class="comment">/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ <span class="endcomment">*/</span></span>
-          box-shadow: <b g="0">0px</b> <b g="1">0px</b> <b g="2">4px</b> <b g="3">0px</b> <b g="4" i="lHex" o="sHex">#ffffff</b>; <span class="comment">/* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 <span class="endcomment">*/</span></span>
+  -webkit-box-shadow: <b g="0">0</b> <b g="1">0</b> <b g="2">4px</b> <b g="3">0</b> <b g="4" i="lHex" o="sHex">#fff</b>; <span class="comment">/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ <span class="endcomment">*/</span></span>
+          box-shadow: <b g="0">0</b> <b g="1">0</b> <b g="2">4px</b> <b g="3">0</b> <b g="4" i="lHex" o="sHex">#fff</b>; <span class="comment">/* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 <span class="endcomment">*/</span></span>
 }</pre>
   <pre class="rule comment commentclose"><span class="comment">/* */</span></pre>
 </div>
@@ -82,12 +82,12 @@
   <pre class="rule comment">/*                           <a class="cb">[to clipboard]</a> <a class="off">[toggle rule off]</a> <span class="endcomment">*/</span></pre>
   <pre class="rule">
 .box_gradient {
-  background-color: <b g="0" i="lHex">#444444</b>;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(<b g="0" i="lHex">#444444</b>), to(<b g="1" i="lHex">#999999</b>)); <span class="comment">/* Safari 4+, Chrome <span class="endcomment">*/</span></span>
-  background-image: -webkit-linear-gradient(top, <b g="0" i="lHex">#444444</b>, <b g="1" i="lHex">#999999</b>); <span class="comment">/* Chrome 10+, Safari 5.1+, iOS 5+ <span class="endcomment">*/</span></span>
-  background-image:    -moz-linear-gradient(top, <b g="0" i="lHex">#444444</b>, <b g="1" i="lHex">#999999</b>); <span class="comment">/* Firefox 3.6-15 <span class="endcomment">*/</span></span>
-  background-image:      -o-linear-gradient(top, <b g="0" i="lHex">#444444</b>, <b g="1" i="lHex">#999999</b>); <span class="comment">/* Opera 11.10-12.00 <span class="endcomment">*/</span></span>
-  background-image:         linear-gradient(to bottom, <b g="0" i="lHex">#444444</b>, <b g="1" i="lHex">#999999</b>); <span class="comment">/* Firefox 16+, IE10, Opera 12.50+ <span class="endcomment">*/</span></span>
+  background-color: <b g="0" i="lHex">#444</b>;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(<b g="0" i="lHex">#444</b>), to(<b g="1" i="lHex">#999</b>)); <span class="comment">/* Safari 4+, Chrome <span class="endcomment">*/</span></span>
+  background-image: -webkit-linear-gradient(top, <b g="0" i="lHex">#444</b>, <b g="1" i="lHex">#999</b>); <span class="comment">/* Chrome 10+, Safari 5.1+, iOS 5+ <span class="endcomment">*/</span></span>
+  background-image:    -moz-linear-gradient(top, <b g="0" i="lHex">#444</b>, <b g="1" i="lHex">#999</b>); <span class="comment">/* Firefox 3.6-15 <span class="endcomment">*/</span></span>
+  background-image:      -o-linear-gradient(top, <b g="0" i="lHex">#444</b>, <b g="1" i="lHex">#999</b>); <span class="comment">/* Opera 11.10-12.00 <span class="endcomment">*/</span></span>
+  background-image:         linear-gradient(to bottom, <b g="0" i="lHex">#444</b>, <b g="1" i="lHex">#999</b>); <span class="comment">/* Firefox 16+, IE10, Opera 12.50+ <span class="endcomment">*/</span></span>
 }</pre>
   <pre class="rule comment commentclose"><span class="comment">/* */</span></pre>
 </div>
@@ -335,6 +335,7 @@
 <pre class="rule changelog">
 /*
     __Changelog__
+    2012.08.30: Updated css values where possible e.g. 0px to 0, #ffffff to #fff.
     2012.08.29: Removed IE6-8 support.
     2012.06.06: Removed -ms prefixes from transition, animations and gradients.
     2012.03.02: Added <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/">box-sizing</a>. Woo!
